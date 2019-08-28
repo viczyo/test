@@ -1,0 +1,1 @@
+require(["../../conf/config.js"],function(){require(["jquery","swiper","common"],function(o,n,r){console.log("加载页面"),r.randomColor()})});

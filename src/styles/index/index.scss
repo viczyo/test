@@ -1,0 +1,71 @@
+/*nihao*/
+$val :100px;
+.box{
+	width:$val*2;
+}
+// $val : 100px;
+// .box {
+//   width: $val*2;
+// }
+// 
+// $dir: left;
+// .box {
+//   margin-#{$dir} : $val/2;
+//   padding-#{$dir} : $val;
+// }
+// .box-#{$dir} {
+//   color: red;
+// }
+// /.b
+// 
+// body {
+// 	background: green;
+// }
+// 
+// .container {
+//   background : rgb(0,0,0);
+//   div.row {
+//     dir.col {
+//       .item {
+//         ul {
+//           list-style: none;
+//           li {
+//             float:left;
+//             a {
+//               text-decoration: none;
+//               &:hover {
+//                 color: black;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// 
+// $props: $val*0.6,$val*1.5, $val*2, $val*3;
+// .test {
+//   left : nth($props, 1);
+//   top : nth($props, 4);
+// }
+// 
+// 
+// 
+// @mixin opacity($val) {
+//   opacity : $val;
+//   filter : alpha(opacity=$val*100);
+// }
+// 
+// @mixin clearfix() {
+//   &::after {
+//     content : "";
+//     display: block;
+//     clear: both;
+//   }
+// }
+// 
+// .acc {
+//   @include opacity(0.8);
+//   @include clearfix()
+// }
